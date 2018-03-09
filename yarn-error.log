@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add gh-pages
+
+PATH: 
+  /usr/local/oozie1/bin:/usr/local/hive/hcatalog//bin:/usr/local/flume/bin:/usr/local/hbase/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/mohit/bin:/usr/local/java/jre1.8.0_121/bin:/usr/local/hadoop/bin:/usr/local/hadoop/sbin:/usr/local/hive/bin:/usr/local/derby/bin:/home/hduser/apache-cassandra-2.2.0/bin:/usr/local/sqoop/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  6.12.2
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "rect",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server --hot"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.17.1",
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.2",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-preset-react": "^6.24.1",
+      "install": "^0.10.2",
+      "npm": "^5.6.0",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0",
+      "react-hot-loader": "^3.1.3",
+      "react-router-dom": "^4.2.2",
+      "webpack": "^3.10.0",
+      "webpack-dev-server": "^2.9.7"
+    },
+    "devDependencies": {
+      "css-loader": "^0.28.7",
+      "html-webpack-plugin": "^2.30.1",
+      "style-loader": "^0.19.0"
+    },
+    "homepage": "https://tadhiyal89.github.io",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /home/mohit/Downloads/reactApp/package.json: Unexpected token } in JSON at position 763
+      at Object.parse (native)
+      at /usr/share/yarn/lib/cli.js:770:59
+      at next (native)
+      at step (/usr/share/yarn/lib/cli.js:92:30)
+      at /usr/share/yarn/lib/cli.js:103:13
